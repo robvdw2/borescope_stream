@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string>
 #include <unistd.h>
+#include <sys/wait.h>
 
 Process::Process(const std::string &filename)
 {
